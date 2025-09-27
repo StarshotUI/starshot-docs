@@ -1,1 +1,2 @@
-# ⭐ Starshot UI Library  Hi, I’m **Nyqron** — the sole creator of **Starshot**, a Roblox UI framework designed to bring your interface ideas to life.    This library makes it simple to create tabs, themes, and UI structures with minimal effort.  ---  ## 🚀 Getting Started  Load Starshot into your game:  ```lua local UI = loadstring(http:get("https://pastebin.com/raw/Ba2U3X7c"))()
+# ⭐ Starshot UI
+The one, the only, Starshot UI Library.
