@@ -21,11 +21,11 @@ https://create.roblox.com/store/asset/121795445220155/Starshot-UI-Library?viewFr
 ## 📖 Creating a Tab
 
 ```lua
-local MainUI = Astra.CreateTab("Astra Demo", "By Creator", "1234", true, "Crimson")
+local MainUI = Astra.CreateTab("Starshot Demo", "By Creator", "1234", true, "Crimson")
 ```
 
 **Parameters:**
-1. `Astra Demo` → The **title** of your UI  
+1. `Starshot Demo` → The **title** of your UI  
 2. `By Creator` → The **subtitle** (optional credit/description)  
 3. `1234` → The **password** string  
 4. `true` → Whether a **password is required** (`true` = required, `false` = no password)  
@@ -36,8 +36,8 @@ local MainUI = Astra.CreateTab("Astra Demo", "By Creator", "1234", true, "Crimso
 ## 📂 Creating a Section
 
 ```lua
-local Section1 = Astra.CreateSection("General")
-local Section2 = Astra.CreateSection("Settings")
+local Section1 = Starshot.CreateSection("General")
+local Section2 = Starshot.CreateSection("Settings")
 ```
 
 ---
@@ -46,7 +46,7 @@ local Section2 = Astra.CreateSection("Settings")
 
 ### 🔘 Button
 ```lua
-Astra.CreateButton(Section1, "Click Me", function()
+Starshot.CreateButton(Section1, "Click Me", function()
     print("Button clicked!")
 end)
 ```
@@ -55,7 +55,7 @@ end)
 
 ### ✅ Toggle
 ```lua
-Astra.CreateToggle(Section1, "Enable Feature", false, function(state)
+Starshot.CreateToggle(Section1, "Enable Feature", false, function(state)
     print("Toggle state:", state)
 end)
 ```
@@ -64,7 +64,7 @@ end)
 
 ### 🎚️ Slider
 ```lua
-Astra.CreateSlider(Section1, "Volume", 0, 100, 50, function(value)
+Starshot.CreateSlider(Section1, "Volume", 0, 100, 50, function(value)
     print("Volume set to:", value)
 end)
 ```
@@ -73,7 +73,7 @@ end)
 
 ### ⬇️ Dropdown
 ```lua
-Astra.CreateDropdown(Section2, "Choose Option", {"Option A", "Option B", "Option C"}, function(choice)
+Starshot.CreateDropdown(Section2, "Choose Option", {"Option A", "Option B", "Option C"}, function(choice)
     print("Dropdown choice:", choice)
 end)
 ```
@@ -82,28 +82,28 @@ end)
 
 ### 🏷️ Text Label
 ```lua
-Astra.CreateTextLabel(Section1, "Thank you for using Astra UI Library.")
+Starshot.CreateTextLabel(Section1, "Thank you for using Astra UI Library.")
 ```
 
 ---
 
 ### ➖ Divider
 ```lua
-Astra.CreateDivider(Section1)
+Starshot.CreateDivider(Section1)
 ```
 
 ---
 
 ### 📑 Paragraph
 ```lua
-Astra.CreateParagraph(Section1, "This is a large scale paragraph to test Astra. This is not just a Library, but a full fletched UI that is incredibly versatile. PLEASE join our Discord.")
+Starshot.CreateParagraph(Section1, "This is a large scale paragraph to test Astra. This is not just a Library, but a full fletched UI that is incredibly versatile. PLEASE join our Discord.")
 ```
 
 ---
 
 ### 🔔 Notification
 ```lua
-Astra.CreateNotification("Demonstration Notification.", "This is a demonstration for our notification system.", 5)
+Starshot.CreateNotification("Demonstration Notification.", "This is a demonstration for our notification system.", 5)
 ```
 
 ---
@@ -122,33 +122,31 @@ Available themes:
 ## 🛠️ Full Example
 
 ```lua
-local MainUI = Astra.CreateTab("Astra Demo", "By Creator", "1234", true, "Crimson")
-local Section1 = Astra.CreateSection("General")
-local Section2 = Astra.CreateSection("Settings")
+local MainUI = Starshot.CreateTab("Astra Demo", "By Creator", "1234", true, "Crimson")
+local Section1 = Starshot.CreateSection("General")
+local Section2 = Starshot.CreateSection("Settings")
 
-Shadow(MainUI)
-
-Astra.CreateButton(Section1, "Click Me", function()
+Starshot.CreateButton(Section1, "Click Me", function()
     print("Button clicked!")
 end)
 
-Astra.CreateToggle(Section1, "Enable Feature", false, function(state)
+Starshot.CreateToggle(Section1, "Enable Feature", false, function(state)
     print("Toggle state:", state)
 end)
 
-Astra.CreateSlider(Section1, "Volume", 0, 100, 50, function(value)
+Starshot.CreateSlider(Section1, "Volume", 0, 100, 50, function(value)
     print("Volume set to:", value)
 end)
 
-Astra.CreateDropdown(Section2, "Choose Option", {"Option A", "Option B", "Option C"}, function(choice)
+Starshot.CreateDropdown(Section2, "Choose Option", {"Option A", "Option B", "Option C"}, function(choice)
     print("Dropdown choice:", choice)
 end)
 
-Astra.CreateTextLabel(Section1, "Thank you for using Astra UI Library.")
-Astra.CreateDivider(Section1)
-Astra.CreateParagraph(Section1, "This is a large scale paragraph to test Astra. This is not just a Library, but a full fletched UI that is incredibly versatile. PLEASE join our Discord.")
+Starshot.CreateTextLabel(Section1, "Thank you for using Astra UI Library.")
+Starshot.CreateDivider(Section1)
+Starshot.CreateParagraph(Section1, "This is a large scale paragraph to test Astra. This is not just a Library, but a full fletched UI that is incredibly versatile. PLEASE join our Discord.")
 
-Astra.CreateNotification("Demonstration Notification.", "This is a demonstration for our notification system.", 5)
+Starshot.CreateNotification("Demonstration Notification.", "This is a demonstration for our notification system.", 5)
 ```
 
 ## ❓ Support Server
