@@ -11,6 +11,10 @@ This library makes it simple to create tabs, sections, and UI elements with mini
 ```lua
 local UI = loadstring(http:get("https://pastebin.com/raw/Ba2U3X7c"))()
 ```
+OR
+
+Download the model:
+https://create.roblox.com/store/asset/121795445220155/Starshot-UI-Library?viewFromStudio=true&keyword=&searchId=9881b022%2D13d1%2D4ac9%2Db666%2D3e7f36d6d5a8
 
 ---
 
