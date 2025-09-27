@@ -159,4 +159,3 @@ Astra.CreateNotification("Demonstration Notification.", "This is a demonstration
 ## 📜 License
 MIT License — free to use, modify, and distribute. Attribution is appreciated but not required.  
 
-MIT License — free to use, modify, and distribute. Attribution is appreciated but not required.  
