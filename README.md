@@ -151,6 +151,9 @@ Astra.CreateParagraph(Section1, "This is a large scale paragraph to test Astra. 
 Astra.CreateNotification("Demonstration Notification.", "This is a demonstration for our notification system.", 5)
 ```
 
+## ❓ Support Server
+https://discord.gg/kZKJFRxB
+
 ---
 
 ## 📌 Notes
