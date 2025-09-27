@@ -21,7 +21,7 @@ https://create.roblox.com/store/asset/121795445220155/Starshot-UI-Library?viewFr
 ## 📖 Creating a Tab
 
 ```lua
-local MainUI = Astra.CreateTab("Starshot Demo", "By Creator", "1234", true, "Crimson")
+local MainUI = Starshot.CreateTab("Starshot Demo", "By Creator", "1234", true, "Crimson")
 ```
 
 **Parameters:**
