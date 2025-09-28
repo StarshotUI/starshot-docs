@@ -9,7 +9,7 @@ This library makes it simple to create tabs, sections, and UI elements with mini
 ## 🚀 Load the Library
 
 ```lua
-local UI = loadstring(http:get("https://pastebin.com/raw/kbfatKNg"))()
+local Starshot = loadstring(game:HttpGet("https://pastebin.com/raw/kbfatKNg"))()
 ```
 OR
 
